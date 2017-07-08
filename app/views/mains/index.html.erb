@@ -1,11 +1,30 @@
-
-  <!-- Parallax -->
   <div id="index-banner" class="parallax-container">
+  <div class="navbar-fixed">
+    <nav class="transparent z-depth-0" id="my_navbar">
+      <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about_me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <ul class="side-nav" id="mobile-demo">
+    <li><a href="#about_me">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#connect">Connect</a></li>
+  </ul>
+  <!-- Parallax -->
+
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container" id="startchange">
         <br><br>
         <!-- Changed font color to teal -->
-        <h1 class="header center teal-text text-lighten-2 full" >Full Stack Developer</h1>
+        <h1 class="header center full teal-text text-lighten-2">Full Stack Developer</h1>
         <!-- Changed font color to teal -->
         <h1 class="header center teal-text text-lighten-2 full">Jae Park</h1>
         <div class="row center">
@@ -37,12 +56,16 @@
     <div class="parallax"><img src="desk.jpg" alt="Unsplashed background img 1">
     </div>
   </div>
+  <div id="about_me">
+  </div>
   <br><br>
-  <div class="row center">
+  <div  class="row center">
     <h4>About Me</h4>
   </div>
   <div class="row container">
     <p class="light" style="text-align: center; font-size: 20px;">Full Stack Developer specialized in Ruby, Python, and JavaScript.  With a passion in computers and technology, it has inspired me to enroll in a Full Stack Development program.  Recently, I graduated from the Coding Dojo located in Washington DC. Coding Dojo is a Full Stack Development program. Along through the years, I have gained many varieties of soft skills.  Over 15 years in management experience.  Started a business on my own.  Combined with development skills, I'm able to be a net positive contributor. </p>
+  </div>
+  <div id="skills">
   </div>
   <div class="container">
     <div class="section">
@@ -162,6 +185,8 @@
     </div>
   </div>
   <!-- Background for parallax -->
+  <div id="projects">
+  </div>
   <div class="parallax-container valign-wrapper">
     <div class="parallax"><img src="hustle.jpg" alt="Unsplashed background img 1"></div>
   </div>
@@ -186,7 +211,7 @@
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Events<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="https://github.com/iota-cohort-dc/Jimmy_Park/tree/master/Ruby/first_vagrant_box/Ruby_Rails/Events">This is a link</a></p> -->
+              <p><a href="https://github.com/iota-cohort-dc/Jimmy_Park/tree/master/Ruby/first_vagrant_box/Ruby_Rails/Events" target="_blank">This is a link</a></p>
             </div>
             <!-- Card reveal from bottom -->
             <div class="card-reveal">
@@ -205,7 +230,7 @@
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Shoe Blog<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
+              <p><a href="https://github.com/Codingdojodc/Python2nd/tree/master/Python2/CodingDojo_Python2/Django/belt_exam_quotes/shoe_blog_django_project" target="_blank">This is a link</a></p>
             </div>
             <!-- Card reveal from bottom -->
             <div class="card-reveal">
@@ -228,7 +253,7 @@
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Secrets<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
+              <p><a href="https://github.com/Codingdojodc/Python2nd/tree/master/Ruby/first_vagrant_box/Ruby_Rails/Secrets" target="_blank">This is a link</a></p>
             </div>
             <!-- Card reveal from bottom -->
             <div class="card-reveal">
@@ -247,7 +272,7 @@
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Travel Buddy<i class="material-icons right">more_vert</i></span>
-              <!-- <p><a href="#">This is a link</a></p> -->
+              <p><a href="https://github.com/Codingdojodc/Python2nd/tree/master/Python2/CodingDojo_Python2/Django/belt_exam_travel_buddy/belt_exam" target="_blank">This is a link</a></p>
             </div>
             <!-- Card reveal from bottom -->
             <div class="card-reveal">
@@ -282,7 +307,7 @@
         <div class="col l3 s12">
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 id="connect" class="white-text">Connect</h5>
           <ul>
             <!-- Contact info -->
             <li><a class="white-text" href="#!" target="_blank" mailto:"jaepark75@gmail.com">jaepark75@gmail.com</a></li>
